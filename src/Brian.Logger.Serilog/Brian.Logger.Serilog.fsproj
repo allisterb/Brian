@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="PyEnv.fs" />
+    <Compile Include="Serilog.fs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -14,9 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\ext\pythonnet\src\runtime\Python.Runtime.15.csproj" />
     <ProjectReference Include="..\Brian.Base\Brian.Base.fsproj" />
-    <ProjectReference Include="..\Brian.Logger.Serilog\Brian.Logger.Serilog.fsproj" />
   </ItemGroup>
 
 </Project>
